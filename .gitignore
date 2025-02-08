@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual Environments
+nenv/
+.env
+*.env
+
+# Logs
+logs/
+*.log
+
+# Database
+*.sqlite3
+*.db
+
+# FastAPI & Dependencies
+*.pid
+dist/
+build/
+
+# Docker
+*.tar
+.dockerignore
+
+# IDE and Editors
+.vscode/
+.idea/
+
+# OS-specific
+Thumbs.db
+.DS_Store
