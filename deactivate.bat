@@ -1,6 +1,6 @@
 @echo off
 
-set ENV_PATH=C:\Users\Manojith\Documents\012_Practical_Project_Learnings\01_NeoStore_Project\NeoStore\nenv
+set ENV_PATH=C:\Users\Manojith\Documents\017_Projects_Repos\001_NeoStore\NeoStore\.venv
 
 if exist "%ENV_PATH%" (
     call "%ENV_PATH%\Scripts\deactivate.bat"
