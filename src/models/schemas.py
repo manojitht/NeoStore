@@ -5,4 +5,17 @@ class Token(BaseModel):
     token_type: str
 
 class TokenData(BaseModel):
-    pass
+    username: str
+
+class User(BaseModel):
+    username: str
+    email: str
+    fullname: str
+    disabled: bool
+
+
+class UserInDB(User):
+    hashed_password: str
+
+
+
